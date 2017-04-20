@@ -58,3 +58,10 @@ function commentsForPost(post, comments) {
 
 console.log(commentsForPost(post,comments));
 
+var numbers = [22,33,44,55,77,66,88,99];
+
+var longNubmers = numbers.filter(function (number) {
+    return number >= 50;
+});
+
+console.log('i am a long number', longNubmers);
